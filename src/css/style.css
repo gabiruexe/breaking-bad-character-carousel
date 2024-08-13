@@ -50,6 +50,15 @@ body {
     padding-right: 15px;
 }
 
+.informacoes .descricao::-webkit-scrollbar {
+    width: 15px;
+}
+
+.informacoes .descricao::-webkit-scrollbar-thumb {
+    background-color: #3F261B;
+    border-radius: 4px;
+}
+
 .botoes-carrosel {
     display: flex;
     justify-content: center;
